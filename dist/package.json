@@ -1,0 +1,31 @@
+{
+    "name": "dplayer",
+    "version": "1.0.0",
+    "description": "Wow, such a lovely HTML5 danmaku video player",
+    "main": "DPlayer.min.js",
+    "scripts": {
+        "pushcode": "git add . && git commit -m 'cc' && git push origin main"
+    },
+    "files": [
+        "dist"
+    ],
+    "repository": {
+        "url": "git+https://github.com/DIYgod/DPlayer.git",
+        "type": "git"
+    },
+    "keywords": [
+        "player",
+        "danmaku",
+        "video",
+        "html5"
+    ],
+    "gitHooks": {
+        "pre-commit": "npm run format:staged"
+    },
+    "author": "DIYgod",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/DIYgod/DPlayer/issues"
+    },
+    "homepage": "https://github.com/DIYgod/DPlayer#readme"
+}
